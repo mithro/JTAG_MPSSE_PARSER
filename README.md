@@ -1,0 +1,3 @@
+ - Copy the .pcap file into the very same folder.
+ - Run the `python py_readpcapng.py` to generate the py_helper.py file
+ - Modify the `python py_edit.py` accorrding to the requests you need to parse and run that too. 

@@ -68,8 +68,10 @@ options={
 
 while index < len(dat):
     curr_command = dat[index];
-    print("Index is "+ str(index)+" command is "+str(curr_command))
+    print("Index is "+ str(index)+" command is "+hex(curr_command))
     print("Bit count is "+str(bit_clock))
+    if(bit_clock > 160 ):
+        raw_input("Insert");
     options[(curr_command)]();
     index += 1
     #print '\r\n'
